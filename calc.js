@@ -21,15 +21,17 @@ reader.question("What would you like to calculate?", function(input){
 	console.log("num2 ", num2);
 
 
-	if(mathSymbol == "+"){
-		console.log("sum " + String(num1 + num2));
-	}else if (mathSymbol == "-"){
-        console.log("sum " + String(num1 - num2));
-    }else if (mathSymbol == "*"){
-        console.log("sum " + String(num1 * num2));
-    }else if(mathSymbol == "/"){
-        console.log("sum " + String(num1 / num2));
-    }
+	if(mathSymbol === "+"){
+		console.log("result " + String(num1 + num2));
+	}else if (mathSymbol === "-"){
+        console.log("result " + String(num1 - num2));
+    }else if (mathSymbol === "*"){
+        console.log("result " + String(num1 * num2));
+    }else if(mathSymbol === "/"){
+        console.log("result " + String(num1 / num2));
+    }else if(mathSymbol === "sqrt"){
+		console.log("result " + String(Math.sqrt(num1)));
+	}
 	// This line closes the connection to the command line interface.
 
 	reader.close()
