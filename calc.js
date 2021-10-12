@@ -24,12 +24,12 @@ reader.question("What would you like to calculate?", function(input){
 	if(mathSymbol === "+"){
 		console.log("result " + String(num1 + num2));
 	}else if (mathSymbol === "-"){
-        console.log("result " + String(num1 - num2));
-    }else if (mathSymbol === "*"){
-        console.log("result " + String(num1 * num2));
-    }else if(mathSymbol === "/"){
-        console.log("result " + String(num1 / num2));
-    }else if(mathSymbol === "sqrt"){
+        	console.log("result " + String(num1 - num2));
+    	}else if (mathSymbol === "*"){
+        	console.log("result " + String(num1 * num2));
+    	}else if(mathSymbol === "/"){
+        	console.log("result " + String(num1 / num2));
+    	}else if(mathSymbol === "sqrt"){
 		console.log("result " + String(Math.sqrt(num1)));
 	}
 	// This line closes the connection to the command line interface.
