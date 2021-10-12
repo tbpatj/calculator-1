@@ -20,7 +20,7 @@ reader.question("What would you like to calculate?", function(input){
 	console.log("num1 ", num1);
 	console.log("num2 ", num2);
 
-
+	//check what the math symbol is and run the function associated
 	if(mathSymbol === "+"){
 		console.log("result " + String(num1 + num2));
 	}else if (mathSymbol === "-"){
