@@ -19,7 +19,9 @@ reader.question("What would you like to calculate?", function(input){
 	console.log("num2 ", num2);
 	if(mathSymbol == "+"){
 		console.log("sum " + String(num1 + num2));
-	}
+	}else if (mathSymbol == "-"){
+        console.log("sum " + String(num1 - num2));
+    }
 	// This line closes the connection to the command line interface.
 
 	reader.close()
